@@ -40,4 +40,13 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <style>
+        /* 设置背景样式 */
+        body {
+            background-image: url("{{ url_for('static', filename='background.jpg') }}");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
 </html>
