@@ -1,0 +1,7 @@
+body {
+  background-image: url("../src/background.jpg");
+  /* 这里假设 `background.jpg` 位于根目录下的 `src` 目录中 */
+  /* 如果 `background.jpg` 位于根目录下的 `src` 目录的子目录中，可以根据实际情况调整路径 */
+  /* 例如：background-image: url("../src/images/background.jpg"); */
+  /* 请确保文件路径和名称正确，以使背景图片正确加载 */
+}
